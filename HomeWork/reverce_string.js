@@ -12,6 +12,7 @@ for (let i = 0; i < str.length ; i++) {
     console.log(arr);
     arr.reverse();
     console.log(arr);
+
     let new_str = "";
     for (let i = 0; i < arr.length; i++) {
         new_str = new_str + arr[i];
