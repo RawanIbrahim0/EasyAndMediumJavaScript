@@ -2,11 +2,11 @@
 const reverse_string = (str) => {
     let arr = [];
 
-/*     for (let i = str.length-1; i < 0; i--) {
- */    
-/* let j=str.length-1;
-console.log(j) */
-for (let i = 0; i < str.length ; i++) {
+    /*     for (let i = str.length-1; i < 0; i--) {
+     */
+    /* let j = str.length - 1;
+    console.log(j); */
+    for (let i = 0; i < str.length; i++) {
         arr.push(str[i]);
     }
     console.log(arr);
